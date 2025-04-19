@@ -1,0 +1,12 @@
+nextjs-ai-component-generator/  
+├── app/  
+│   ├── (studio)/  
+│   │   ├── generate/action.ts # AI Server Action  
+│   │   └── edit/[id]/page.tsx # Visual editor  
+├── lib/  
+│   ├── prompts/              # System prompts  
+│   └── transformers/         # Code post-processing  
+├── types/  
+│   └── component.ts          # Type definitions  
+└── public/  
+    └── examples/             # Sample prompts  
